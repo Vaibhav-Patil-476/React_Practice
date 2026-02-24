@@ -4,7 +4,6 @@ import React from "react";
 function About() {
   return (
     <>
-    <section id="about">
     <div className="about-section">
       <h1 className="about-title">About Us</h1>
 
@@ -38,7 +37,7 @@ function About() {
         </div>
       </div>
     </div>
-    </section>
+
     </>
   );
 }

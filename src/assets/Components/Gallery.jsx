@@ -3,7 +3,7 @@ import React from "react";
 
 function Gallery() {
   return (
-    <section id="gallery">
+   
     <div className="gallery-section">
       <h1 className="gallery-title">Gallery</h1>
 
@@ -28,7 +28,7 @@ function Gallery() {
         </div>
       </div>
     </div>
-    </section>
+   
     
   );
 }

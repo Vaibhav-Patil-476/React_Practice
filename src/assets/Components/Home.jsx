@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
   return (
     <div>
-        <section id="home">
+        
      <div id="carouselExampleFade" class="carousel slide carousel-fade">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -25,7 +25,7 @@ function Home() {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-</section>
+
     </div>
 
   );

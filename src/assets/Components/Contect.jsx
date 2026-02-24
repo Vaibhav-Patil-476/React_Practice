@@ -3,7 +3,7 @@ import "./Contect.css";
 
 function Contact() {
   return (
-    <section id="contact">
+    
         <div className="container">
       <div className="contact-inner">
         
@@ -43,7 +43,7 @@ function Contact() {
 
       </div>
       </div>
-    </section>
+ 
   );
 }
 

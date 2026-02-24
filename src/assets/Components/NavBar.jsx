@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -8,9 +9,9 @@ function Navbar() {
             <div className="container-fluid">
 
                 {/* Brand */}
-                <a className="navbar-brand" href="#home">
+                <Link to ={"/"} className="navbar-brand" >
                     MyWebsite
-                </a>
+                </Link>
 
                 {/* Toggle Button */}
                 <button
@@ -26,24 +27,24 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <a className="nav-link active" href="#home">
+                            <Link to ={"/home"} className="nav-link active ">
                                 Home
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">
+                            <Link to ={"/about"} className="nav-link">
                                 About
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#gallery">
+                            <Link to ={"/gallery"} className="nav-link">
                                 Gallery
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact">
+                            <Link to ={"/contect"} className="nav-link" >
                                 Contact
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
