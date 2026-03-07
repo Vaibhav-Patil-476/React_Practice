@@ -4,6 +4,7 @@ import Contect from './assets/Components/Contect.jsx'
 import NavBar from './assets/Components/NavBar.jsx'
 import Gallery from './assets/Components/Gallery.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Crud from './assets/Components/Crud.jsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <Route path='/about' element={<About/>}/>
      <Route path='/gallery' element={<Gallery/>}/>
      <Route path='/contect' element={<Contect/>}/>
+     <Route path='/crud' element={<Crud/>}/>
     </Routes>
     </BrowserRouter>
     </>
