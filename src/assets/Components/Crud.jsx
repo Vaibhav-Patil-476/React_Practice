@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useState } from 'react'
 
 function Crud() {
@@ -13,9 +14,17 @@ function Crud() {
 
     function handleSubmit(e){
         e.preventDefault();
-        console.log(data.name);
-        console.log(data.lastname);
+      
+        axios.post("https://69ad35d1b50a169ec87ee5ed.mockapi.io/Student",data)
 
+        .then((response)=>{
+            console.log(response.data);
+            alert("Data Add Successfully....");
+        })
+
+        .catch((error)=>{
+            console.log(error);
+        });
 
 
         setdata({
