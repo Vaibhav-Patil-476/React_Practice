@@ -6,6 +6,7 @@ import Gallery from './assets/Components/Gallery.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Crud from './assets/Components/Crud.jsx'
 
+
 function App() {
   return (
     <>
