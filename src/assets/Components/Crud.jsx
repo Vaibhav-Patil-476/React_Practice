@@ -39,7 +39,8 @@ function Crud() {
                 console.log(res.data);
                 setnewdata(res.data);
                 alert("Data Get Successfully....");
-            })
+            }).catch((err) => console.log("Error:", err));
+
 
 
     }
@@ -54,7 +55,11 @@ function Crud() {
                 console.log(res.data);
                 getdata();
             })
-    }
+    }cath((err)=>{
+        console.log("Error:",err);
+    })
+
+
     return (
         <>
             <div className='container'>
